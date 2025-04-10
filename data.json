@@ -1,0 +1,230 @@
+{
+  "sidebarWidth": 100,
+  "showButtonLabels": true,
+  "buttonNames": {
+    "file-explorer": "文件浏览器",
+    "search": "搜索",
+    "starred": "收藏",
+    "graph-view": "图谱",
+    "calendar": "日历",
+    "templates": "模板",
+    "command-palette": "命令面板",
+    "backlink": "反链",
+    "tag-pane": "标签",
+    "outline": "大纲",
+    "note-composer": "笔记编辑器",
+    "daily-notes": "日记",
+    "bookmarks": "书签"
+  },
+  "detectedButtons": [
+    {
+      "id": "",
+      "ariaLabel": "打开命令面板",
+      "iconClass": "",
+      "originalName": "命令面板",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open Copilot Chat",
+      "iconClass": "",
+      "originalName": "Copilot Chat",
+      "element": {},
+      "customName": "笔记对话"
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open homepage",
+      "iconClass": "",
+      "originalName": "homepage",
+      "element": {},
+      "customName": "开始主页"
+    },
+    {
+      "id": "",
+      "ariaLabel": "PDF++: Toggle auto-copy",
+      "iconClass": "",
+      "originalName": "PDF++",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "PDF++: Toggle auto-focus",
+      "iconClass": "",
+      "originalName": "PDF++",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "PDF++: Toggle auto-paste",
+      "iconClass": "",
+      "originalName": "PDF++",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Templater",
+      "iconClass": "",
+      "originalName": "Templater",
+      "element": {},
+      "customName": "模版"
+    },
+    {
+      "id": "",
+      "ariaLabel": "复习卡片",
+      "iconClass": "",
+      "originalName": "复习卡片",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open media",
+      "iconClass": "",
+      "originalName": "media",
+      "element": {},
+      "customName": "打开媒体"
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open Git source control",
+      "iconClass": "",
+      "originalName": "Git source control",
+      "element": {},
+      "customName": "git控制"
+    },
+    {
+      "id": "",
+      "ariaLabel": "打开快速切换",
+      "iconClass": "",
+      "originalName": "快速切换",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "查看关系图谱",
+      "iconClass": "",
+      "originalName": "查看关系图谱",
+      "element": {},
+      "customName": "关系图谱"
+    },
+    {
+      "id": "",
+      "ariaLabel": "新建白板",
+      "iconClass": "",
+      "originalName": "新建白板",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "插入模板",
+      "iconClass": "",
+      "originalName": "插入模板",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "分享到 NotionNext",
+      "iconClass": "",
+      "originalName": "分享到 NotionNext",
+      "element": {},
+      "customName": "分享Notion"
+    },
+    {
+      "id": "",
+      "ariaLabel": "Advanced Tables Toolbar",
+      "iconClass": "",
+      "originalName": "Advanced Tables Toolbar",
+      "element": {},
+      "customName": "高级表格"
+    },
+    {
+      "id": "",
+      "ariaLabel": "创建新看板",
+      "iconClass": "",
+      "originalName": "创建新看板",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Thino",
+      "iconClass": "",
+      "originalName": "Thino",
+      "element": {},
+      "customName": "Thino记录"
+    },
+    {
+      "id": "",
+      "ariaLabel": "ReadItLater: Create from clipboard",
+      "iconClass": "",
+      "originalName": "ReadItLater",
+      "element": {},
+      "customName": "稍后再看"
+    },
+    {
+      "id": "",
+      "ariaLabel": "打开/创建今天的日记",
+      "iconClass": "",
+      "originalName": "/创建今天的日记",
+      "element": {},
+      "customName": "创建日记"
+    },
+    {
+      "id": "",
+      "ariaLabel": "BRAT",
+      "iconClass": "",
+      "originalName": "BRAT",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open Timeline",
+      "iconClass": "",
+      "originalName": "Timeline",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open Multi-Day View",
+      "iconClass": "",
+      "originalName": "Multi-Day View",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "替换任务",
+      "iconClass": "",
+      "originalName": "替换任务",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open: View Smart Connections",
+      "iconClass": "",
+      "originalName": "Open",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "Open: Smart Chat Conversation",
+      "iconClass": "",
+      "originalName": "Open",
+      "element": {}
+    },
+    {
+      "id": "",
+      "ariaLabel": "左右分屏",
+      "iconClass": "",
+      "originalName": "左右分屏",
+      "element": {},
+      "customName": "11"
+    }
+  ],
+  "autoDetectButtons": true,
+  "customButtons": [
+    {
+      "ariaLabel": "media",
+      "customName": "打开视频",
+      "isAutoDetected": false
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+/* 侧边栏自定义样式 */
+
+/* 侧边栏宽度设置 */
+.workspace-ribbon.mod-left.side-dock-ribbon,
+.workspace-ribbon.mod-left {
+  width: var(--sidebar-width, 180px) !important;
+  max-width: var(--sidebar-width, 180px) !important;
+  min-width: var(--sidebar-width, 180px) !important;
+  transition: width 0.2s ease;
+}
+
+/* 侧边栏图标水平布局 */
+.workspace-ribbon.mod-left .workspace-ribbon-collapse-btn,
+.workspace-ribbon.mod-left .side-dock-ribbon-action,
+.workspace-ribbon.mod-left .side-dock-ribbon-tab {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding: 8px 6px !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+
+/* 图标样式调整 */
+.workspace-ribbon.mod-left .workspace-ribbon-collapse-btn svg,
+.workspace-ribbon.mod-left .side-dock-ribbon-action svg,
+.workspace-ribbon.mod-left .side-dock-ribbon-tab svg {
+  margin-right: 8px !important;
+  flex-shrink: 0 !important;
+}
+
+/* 按钮文本样式 */
+.workspace-ribbon.mod-left .ribbon-button-text {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  font-size: 12px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: calc(var(--sidebar-width, 180px) - 45px) !important;
+}
+
+/* 自定义按钮文本样式 */
+.workspace-ribbon.mod-left .custom-sidebar-button-text {
+  display: inline-block !important;
+  font-size: 12px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: calc(var(--sidebar-width, 180px) - 45px) !important;
+}
+
+/* 侧边栏宽度调整器 */
+.sidebar-width-adjuster {
+  position: absolute;
+  right: -5px;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  cursor: ew-resize;
+  z-index: 100;
+}
+
+/* 鼠标悬停效果 */
+.sidebar-width-adjuster:hover {
+  background-color: var(--interactive-accent);
+  opacity: 0.3;
+}
+
+/* 拖拽时的样式 */
+body.sidebar-resizing {
+  cursor: ew-resize;
+}
+
+/* === 设置界面样式 === */
+
+/* 整体布局 */
+.sidebar-enhancer-settings {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.sidebar-enhancer-settings h1 {
+  margin-bottom: 16px;
+  color: var(--interactive-accent);
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 8px;
+}
+
+.sidebar-enhancer-settings h2 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-size: 1.5em;
+  color: var(--text-normal);
+}
+
+.sidebar-enhancer-settings h3 {
+  margin-top: 24px;
+  font-size: 1.2em;
+  color: var(--text-normal);
+}
+
+.setting-section {
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 宽度预设按钮 */
+.sidebar-width-presets {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.sidebar-width-preset-button {
+  background-color: var(--background-modifier-border);
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+  font-size: 0.85em;
+  transition: all 0.2s ease;
+}
+
+.sidebar-width-preset-button:hover {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.sidebar-width-preset-button.active {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+/* 按钮设置 */
+.refresh-buttons-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.refresh-buttons {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.85em;
+  transition: all 0.2s ease;
+}
+
+.refresh-buttons:hover {
+  opacity: 0.9;
+}
+
+/* 按钮列表 */
+.button-list {
+  background-color: var(--background-primary);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.button-row {
+  display: flex;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  align-items: center;
+}
+
+.button-row:last-child {
+  border-bottom: none;
+}
+
+.button-row.header {
+  background-color: var(--background-secondary-alt);
+  font-weight: bold;
+  padding: 12px 16px;
+}
+
+.button-original-name {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-right: 16px;
+}
+
+.button-id {
+  color: var(--text-muted);
+  font-size: 0.75em;
+  margin-top: 2px;
+}
+
+.button-custom-name {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button-custom-name-input {
+  flex: 1;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  font-size: 0.9em;
+}
+
+.button-reset {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.button-reset:hover {
+  background-color: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.no-buttons-message {
+  padding: 20px;
+  text-align: center;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* 关于部分 */
+.about-section {
+  margin-top: 24px;
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+/* 响应式布局 */
+@media (max-width: 600px) {
+  .button-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .button-original-name,
+  .button-custom-name {
+    width: 100%;
+  }
+  
+  .button-custom-name {
+    margin-top: 8px;
+  }
+}

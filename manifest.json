@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-sidebar-enhancer",
+  "name": "Sidebar Enhancer",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "增强Obsidian侧边栏功能，包括名称显示、宽度调整和自定义按钮名称",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/yourusername",
+  "isDesktopOnly": true
+}

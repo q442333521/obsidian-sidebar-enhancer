@@ -1,0 +1,26 @@
+{
+  "name": "obsidian-sidebar-enhancer",
+  "version": "1.0.0",
+  "description": "增强Obsidian侧边栏功能，包括名称显示、宽度调整和自定义按钮名称",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "sidebar",
+    "customization"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "obsidian": "^1.2.8",
+    "esbuild": "0.17.3",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}
