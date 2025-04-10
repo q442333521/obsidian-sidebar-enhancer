@@ -11,7 +11,7 @@
 - **调整侧边栏宽度**: 通过拖拽或滑块调整侧边栏的宽度
 - **自动检测按钮**: 自动识别所有侧边栏按钮，包括插件添加的按钮
 
-![截图预览](https://raw.githubusercontent.com/q442333521/obsidian-sidebar-enhancer/main/screenshots/preview.png)
+![截图预览](https://raw.githubusercontent.com/q442333521/obsidian-sidebar-enhancer/master/screenshots/preview.png)
 
 ## 功能
 
